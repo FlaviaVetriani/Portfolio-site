@@ -1,0 +1,173 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  font: 16px "Montserrat", sans-serif;
+  color: #333333;
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2em;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: grid;
+  margin: 1em 1em 0 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+
+/** Header **/
+
+header {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 3px solid rgba(128, 42, 124, 0.7);
+  background-color: #f7f7f7;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  width: 30%;
+}
+
+.personal_logo {
+  margin: 1em 0 1em 5em;
+}
+
+.personal_data {
+  width: 70%;
+  text-align: right;
+}
+
+.personal_data h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0.5em 2em 0 0;
+}
+
+.personal_data h3 {
+  font-size: 2em;
+  margin: 0 3em 0 0;
+}
+
+
+/** Main **/
+
+main {
+  border-bottom: 3px solid rgba(128, 42, 124, 0.7);
+  margin-bottom: 1em;
+}
+
+.personal_intro {
+  border-bottom: 2px dotted rgba(128, 42, 124, 0.5);
+}
+
+.personal_intro img {
+  margin: 0 2.5em;
+}
+
+.personal_description {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal_description p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.work_projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.work {
+  width: calc(100% / 3);
+}
+
+.work img:last-of-type {
+  margin-right: 0;
+}
+
+.work figure {
+  text-align: center;
+}
+
+.work h4 {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0 0 0.5em 0;
+}
+
+.work figcaption {
+  margin: 1em 0 1em 0;
+}
+
+.work figcaption a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+figcaption a:hover {
+  font-weight: 600;
+}
+
+
+/** Footer **/
+
+footer {
+  background-color: #333;
+  color: #f7f7f7;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.contact_me {
+  color: #f7f7f7;
+}
+
+.far,
+.fab {
+  padding: 0.5em;
+}
+
+.copyright {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright p {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}

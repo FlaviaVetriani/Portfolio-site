@@ -1,0 +1,160 @@
+@media screen and (max-width: 639px){
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+
+  /** Header **/
+
+  .logo {
+    width: 100%;
+  }
+
+  .personal_logo {
+    margin: 1em 0 1em 0;
+    max-width: 20%;
+  }
+
+  .personal_data {
+    width: 100%;
+    text-align: center;
+  }
+
+  .personal_data h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .personal_data h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+
+  /** Main **/
+
+  .personal_intro img {
+    margin: 0;
+  }
+
+  .personal_description p {
+    font-size: 1em;
+  }
+
+  .work {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .work figure {
+    margin: 1em;
+  }
+  .work h4 {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .work figcaption a {
+    font-size: 0.9em;
+  }
+
+
+  /** Footer **/
+
+  .copyright p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+
+  /** Header **/
+
+  .personal_logo {
+    margin-left: 2em;
+    max-width: 50%;
+  }
+
+  .personal_data h1 {
+    font-size: 2em;
+    margin: 1em 0 0 0;
+  }
+
+  .personal_data h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+
+  /** Main **/
+
+  .personal_intro img {
+    margin: 0;
+  }
+
+  .personal_description p {
+    font-size: 1em;
+  }
+
+  .work {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .my_project {
+    max-width: 80%;
+  }
+
+  .work h4 {
+    font-size: 1.1em;
+  }
+
+  .work figcaption a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+
+  /** Header **/
+
+  .personal_data h1 {
+    font-size: 2.5em;
+    margin: 1em 0 0 0;
+  }
+
+  .personal_data h3 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+
+
+  /** Main **/
+
+  .personal_intro img {
+    margin: 0;
+  }
+
+  .personal_description p {
+    font-size: 1.1em;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .work figcaption a {
+    font-size: 1em;
+  }
+}
